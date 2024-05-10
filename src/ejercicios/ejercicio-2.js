@@ -10,7 +10,7 @@
 
 const calcularImpuestos = ( edad, ingresos ) => {
     const impuestos = (edad >= 18 && ingresos >= 1000) ? ingresos * 0.40 : 0;
-    return impuestos;
+    return impuestos
 };
 
 
